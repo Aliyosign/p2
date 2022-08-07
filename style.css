@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./ccc.jpg);
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading .logo{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium'sans-serif;
+    font-weight: 900;
+    color: orangered;
+}
+.heading ul li{
+margin: 10px;
+display: inline-block;
+}
+.heading ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.heading ul li span{
+    color: orangered;
+}
+.heading ul li button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.main{
+    margin: 20px;
+    margin-bottom: 60px;
+}
+.main h1{
+    /* padding: 30px; */
+    margin-top: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: orangered;
+}
+.main h5{
+    /* padding: 30px; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: whitesmoke;
+    padding: 5px;
+}
+.btn .bt1{
+margin: 15px;
+border-radius: 20px;
+padding: 12px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: orangered;
+color: whitesmoke;
+font-weight: 500;
+border: none;
+}
+
+ .btn .bt2{
+    margin: 5px;
+    border-radius: 20px;
+    padding: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orangered;
+    color: whitesmoke;
+    font-weight: 500;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
